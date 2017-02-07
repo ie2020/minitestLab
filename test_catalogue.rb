@@ -42,8 +42,11 @@ class TestCatalogue < MiniTest::Test
       product2.quantity = 110
       # ******To complete ********
       # Boundry
-      @product1.quantity = 100
+      @product1.quantity = 80
+      @product.quantity = 70
+      
       result = @catalogue.check_reorder
+      assert_
       # ******To complete ********
   end
 
